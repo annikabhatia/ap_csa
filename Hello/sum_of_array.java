@@ -6,9 +6,9 @@ public class sum_of_array {
         String str1 = "sum_of_array";
         String str2 = new String("sum_of_array");
         if(str1 == str2) {
-            System.out.println("str1 == str2");
+            System.out.println("sum_of_array str1 == str2");
         } else {
-            System.out.println("str1 != str2");
+            System.out.println("sum_of_array str1 != str2");
         }
 
         if(str1.equals(str2)) {
