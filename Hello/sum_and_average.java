@@ -7,13 +7,13 @@ public class sum_and_average {
         Scanner scanner = new Scanner(System.in); // allows user to enter digits
         ArrayList<Integer> integerList = new ArrayList<>(); // to store the integers
 
-        System.out.println("Enter integers: ");
+        System.out.println("Enter integers (to stop please type in a letter): ");
         while (scanner.hasNextInt()) {
             int input = scanner.nextInt();
             integerList.add(input);
         }
 
-        System.out.println("Here is a list of the integers in your ArrayList" + integerList);
+        System.out.println("Here is a list of the integers in your ArrayList " + integerList);
         int sum = calculateSum(integerList);
         double average = calculateAverage(integerList);
         System.out.println("This is the sum: " + sum);
