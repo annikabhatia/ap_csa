@@ -16,8 +16,6 @@ public class copied_array {
 
         print_array(arr);
         print_array(arr2);
-        //System.out.println(arr);
-        //System.out.println(arr2);   
     }
 }
 
