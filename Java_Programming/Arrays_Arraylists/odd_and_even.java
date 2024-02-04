@@ -1,3 +1,4 @@
+
 public class odd_and_even {
     public static void main(String[] args) {
         int[] arr = { 45, 76, 87, 34, 6, 9, 8 };

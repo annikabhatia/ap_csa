@@ -1,3 +1,4 @@
+
 public class max_and_min {
 
     public static void main(String[] args) {
