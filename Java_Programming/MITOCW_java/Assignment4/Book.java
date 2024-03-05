@@ -1,4 +1,5 @@
 package Assignment4;
+
 public class Book {
 
     String title;
@@ -6,7 +7,7 @@ public class Book {
 
     // Creates a new Book
     public Book(String bookTitle) {
-        // Implement this method
+        title = bookTitle;
     }
    
     // Marks the book as rented
@@ -34,7 +35,8 @@ public class Book {
         Book example = new Book("The Da Vinci Code");
         System.out.println("Title (should be The Da Vinci Code): " + example.getTitle());
         System.out.println("Borrowed? (should be false): " + example.isBorrowed());
-        example.rented();
+        //example.rented();
+        example.borrowed();
         System.out.println("Borrowed? (should be true): " + example.isBorrowed());
         example.returned();
         System.out.println("Borrowed? (should be false): " + example.isBorrowed());

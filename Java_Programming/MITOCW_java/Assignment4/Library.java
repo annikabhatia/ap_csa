@@ -1,6 +1,29 @@
 package Assignment4;
+import java.util.ArrayList;
+
 public class Library {
+    private String address;
+    private ArrayList<Book> books; //[] = new Book[100];
+    
     // Add the missing implementation to this class
+    Library (String address) {
+        this.address = address;
+
+    }
+
+    public void addBook(Book b) {
+        books.add(b);
+    }
+
+    public static void printOpeningHours() {
+        System.out.println("Libraries are open daily from 9am to 5pm.");
+    } 
+
+    public void printAddress() {
+        System.out.println(this.address);
+    }
+
+    public 
 
     public static void main(String[] args) {
         // Create two libraries
