@@ -1,5 +1,3 @@
-package JFA;
-
 public class SquareTest {
     public static void main(String[] args) {
         Square val = new Square(5);
