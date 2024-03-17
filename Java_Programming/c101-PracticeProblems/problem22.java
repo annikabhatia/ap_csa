@@ -9,6 +9,6 @@ public class problem22 {
         for (int n = 1; n < goal; n++) {
             sum+=n;
         }
-        return n; // why is this not right?
+        return sum; 
     }
 }
