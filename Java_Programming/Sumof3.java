@@ -18,6 +18,8 @@ public class Sumof3 {
         System.out.println("The max of 3 numbers is: " + max_val_ijk);
 
         System.out.println("The max of 3 numbers is: " + max);
+
+        input.close();
     }
 
 }
