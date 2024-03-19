@@ -2,7 +2,7 @@
 Write a function named "rotateRight" that takes as input an integer. The function should rotate the digits of the integer to the right by one place, moving the rightmost digit to the leftmost position.
 For example, if the integer passed to the function is 12345, the function should return 51234.
 */
-public class Main {
+public class rotateIntegerRight {
     public static void main(String[] args) {
         int number = 12345; // Example integer
         int rotatedNumber = rotateRight(number);
@@ -10,6 +10,9 @@ public class Main {
     }
 
     public static int rotateRight(int number) {
+      
       // Your code here
+
+      return number;
     }
 }

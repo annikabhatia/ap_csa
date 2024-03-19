@@ -16,11 +16,8 @@ public class find_factorial {
         }
 
         System.out.println("The value of the factorial of " + n + " is " + answer);
-
-
-
+        
         scanner.close();
-
     }
 
 

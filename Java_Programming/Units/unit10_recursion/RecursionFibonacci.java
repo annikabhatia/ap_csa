@@ -4,8 +4,8 @@ public class RecursionFibonacci {
         int result = fibonacci(6);
         for (int i = 0; i < 6; i++) {
             System.out.println("fibonacci of " + i + ": " + fibonacci(i));
-
         }
+        System.out.println(result);
     }
 
     public static int fibonacci(int n) {
