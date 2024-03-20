@@ -1,4 +1,5 @@
 public class PalindromeCheck {
+    // Check if a given string is a palindrome using iteration.
     public static void main(String[] args) {
         System.out.println(isPalindrome("madam"));
         System.out.println(isPalindrome("noon"));
