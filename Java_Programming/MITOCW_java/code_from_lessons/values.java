@@ -1,3 +1,4 @@
+package code_from_lessons;
 public class values {
     public static void main(String[] args) {
         int[] values = new int[5];

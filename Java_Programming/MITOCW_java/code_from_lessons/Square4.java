@@ -1,3 +1,4 @@
+package code_from_lessons;
 public class Square4 {
     public static double square(double x) {
         return x*x;

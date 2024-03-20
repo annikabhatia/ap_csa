@@ -1,3 +1,4 @@
+package code_from_lessons;
 public class testContinueinLoop {
     public static void main(String[] args) {
         int i = 0;

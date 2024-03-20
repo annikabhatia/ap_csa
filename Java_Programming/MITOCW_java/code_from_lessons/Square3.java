@@ -1,3 +1,4 @@
+package code_from_lessons;
 public class Square3 {
     public static void printSquare(double x) {
         System.out.println(x*x);

@@ -1,3 +1,4 @@
+package code_from_lessons;
 public class Scope {
     public static void main(String[] arguments) {
         int x = 5; 
