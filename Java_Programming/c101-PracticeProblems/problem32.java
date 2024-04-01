@@ -13,6 +13,7 @@ public class problem32 {
     public static void main(String[] args) {
         int[] x = {58, 26, 91, 34, 70, 34, 88};
         System.out.println(locationOfTarget(x, 34));
+        
     }
     }
 
