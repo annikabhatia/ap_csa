@@ -1,14 +1,24 @@
-public class SumOfDigits {
-    // using recursion
-    public static void main(String[] args) {
-        System.out.println(calcSum(567));
-    }
+import java.util.Scanner;
 
-    public static int calcSum(int num) {
-        if (num == 0) {
-            return 0;
-        } else
-            return (num % 10) + calcSum(num / 10);
-        
-}
+public class SumOfDigits {
+    public static void main(String[] args) {
+      Scanner scanner = new Scanner(System.in);
+        System.out.print("Please enter a number: ");
+        int num = scanner.nextInt();
+        int sum = 0;
+        while(num > 0)  
+        {
+            sum += (num % 10);
+            num = num / 10;
+        }
+        /*
+        Example for loop 
+        for (  ;num > 0; num/=10) {
+            sum += (num % 10);
+        }
+        */
+        System.out.println("sum of digits of number is " + sum);
+
+        scanner.close();
+    }
 }
