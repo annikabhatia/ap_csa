@@ -1,18 +1,19 @@
-package Assignment4;
+import java.util.ArrayList;
 
 public class Book {
 
     String title;
-    boolean borrowed;
+    ArrayList<Book> Books;
 
     // Creates a new Book
     public Book(String bookTitle) {
         title = bookTitle;
+        Books = new ArrayList<Book>(); 
     }
    
     // Marks the book as rented
     public void borrowed() {
-        // Implement this method
+        
     }
    
     // Marks the book as not rented
@@ -27,7 +28,7 @@ public class Book {
    
     // Returns the title of the book
     public String getTitle() {
-        // Implement this method
+        return title;
     }
 
     public static void main(String[] arguments) {

@@ -11,7 +11,7 @@ public class rotateIntegerRight {
 
     public static int rotateRight(int number) {
       
-      // Your code here
+      // Add code here
 
       return number;
     }

@@ -1,4 +1,3 @@
-package Assignment4;
 import java.util.ArrayList;
 
 public class Library {
@@ -23,7 +22,13 @@ public class Library {
         System.out.println(this.address);
     }
 
-    public 
+    public void borrowBook(String b) {
+        books.remove(b);
+    }
+
+    public void printAvailableBooks() {
+        
+    }
 
     public static void main(String[] args) {
         // Create two libraries
